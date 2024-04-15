@@ -65,7 +65,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 20,
+   "execution_count": 25,
    "id": "74aa526e-aab3-4ae6-8499-1a8b1e4652cc",
    "metadata": {},
    "outputs": [],
@@ -81,6 +81,7 @@
     "import statsmodels.tsa.api as smtsa\n",
     "import warnings\n",
     "import missingno as msno\n",
+    "from sklearn.preprocessing import normalize\n",
     "\n",
     "#warnings.filterwarnings('ignore)\n",
     "%matplotlib inline"
@@ -146,6 +147,27 @@
    "outputs": [],
    "source": [
     "clu = pd.read_csv('ObesityDataSet_raw_and_data_sinthetic.csv')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c38f28e5-c09e-44c3-8a55-14f45e1c7de5",
+   "metadata": {},
+   "source": [
+    "#### Dataset information"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ace8afb8-1466-404b-b9df-d92db8fb9a73",
+   "metadata": {},
+   "source": [
+    "This dataset include data for the estimation of obesity levels in individuals from the countries of Mexico, Peru and Colombia, based on their eating habits and physical condition.\n",
+    "\n",
+    "This dataset include data for the estimation of obesity levels in individuals from the countries of Mexico, Peru and Colombia, based on their eating habits and physical condition. The data contains 17 attributes and 2111 records, the records are labeled with the class variable NObesity (Obesity Level), that allows classification of the data using the values of Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II and Obesity Type III. 77% of the data was generated synthetically using the Weka tool and the SMOTE filter, 23% of the data was collected directly from users through a web platform.\n",
+    "\n",
+    "**Obesity levels:**\n",
+    "Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, and Obesity Type III."
    ]
   },
   {
@@ -1094,6 +1116,50 @@
    "id": "10f42a97-ee15-45d7-a10f-410fd8eb64ac",
    "metadata": {},
    "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d7f0051e-ed74-4ff8-b6f1-597fa835a1f6",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d8644947-c462-4327-af78-d8aefea1705a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "febfe178-20ac-44d4-a8d2-e44d206ae2b4",
+   "metadata": {},
+   "source": [
+    "## Github"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f4169f8b-e0e9-4c79-ac25-d5a619a003f9",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0574596e-e455-41b6-b3b4-d593809b2670",
+   "metadata": {},
+   "source": [
+    "## References"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8a2fcd6c-6d03-416a-bf90-76fb39fb3351",
+   "metadata": {},
    "source": []
   }
  ],
